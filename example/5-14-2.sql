@@ -1,0 +1,6 @@
+CREATE TABLE author(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(30) NOT NULL,
+	profile VARCHAR(200) NULL,
+	PRIMARY KEY(id)
+);
